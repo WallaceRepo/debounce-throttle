@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+ 
+
+}
+.card {
+    border: 1px solid wheat;
+    
+    padding: .5rem;
+}
+.card > .header {
+    margin-bottom: .25rem;
+  }
+.card > .body {
+    font-size: .8rem;
+    color: wheat;
+
+}
+.hide {
+    display: none;
+}
+.cell div {
+    color: wheat;
+    margin: 10px
+}
+label {
+    color:wheat
+}
+input {
+    margin-bottom: 20px;
+    font-size:1rem
+}
+
